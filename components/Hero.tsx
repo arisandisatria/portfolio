@@ -6,52 +6,6 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-background"
     >
-      {/* <div className="absolute inset-0 -z-10">
-        <svg
-          className="absolute w-full h-full"
-          viewBox="0 0 1000 1000"
-          preserveAspectRatio="xMidYMid slice"
-        >
-          <defs>
-            <pattern
-              id="grid"
-              width="100"
-              height="100"
-              patternUnits="userSpaceOnUse"
-            >
-              <path
-                d="M 100 0 L 0 0 0 100"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                opacity="0.08"
-              />
-            </pattern>
-          </defs>
-          <rect width="1000" height="1000" fill="url(#grid)" />
-          <rect
-            x="50"
-            y="100"
-            width="300"
-            height="300"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="4"
-            opacity="0.05"
-          />
-          <rect
-            x="700"
-            y="500"
-            width="250"
-            height="250"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="4"
-            opacity="0.05"
-          />
-        </svg>
-      </div> */}
-
       <div className="max-w-5xl mt-10 mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="space-y-8">
           <div className="border-l-8 border-r-8 border-secondary dark:border-accent pl-6 pr-6 py-8">
@@ -77,8 +31,8 @@ export default function Hero() {
 
         <div className="flex flex-row items-center justify-center gap-6 my-16">
           <a
-            href="/resume.pdf"
-            target="_blank"
+            href="/downloads/CV_Arisandi.pdf"
+            download="CV_Arisandi_Fullstack-Developer.pdf"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-6 py-2 sm:px-10 sm:py-4 bg-primary text-primary-foreground font-black text-lg border-4 border-primary hover:shadow-2xl transition-all duration-200 active:translate-x-1 active:translate-y-1 hover:translate-x-1 hover:translate-y-1"
             style={{ boxShadow: "8px 8px 0px #000000" }}
