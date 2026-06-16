@@ -31,7 +31,7 @@ export default function Hero() {
 
         <div className="flex flex-row items-center justify-center gap-6 my-16">
           <a
-            href="/downloads/CV_Arisandi.pdf"
+            href="/CV_Arisandi.pdf"
             download="CV_Arisandi_Fullstack-Developer.pdf"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-6 py-2 sm:px-10 sm:py-4 bg-primary text-primary-foreground font-black text-lg border-4 border-primary hover:shadow-2xl transition-all duration-200 active:translate-x-1 active:translate-y-1 hover:translate-x-1 hover:translate-y-1"
