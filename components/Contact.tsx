@@ -68,7 +68,7 @@ export default function Contact() {
         <h2 className="text-4xl sm:text-6xl font-black tracking-tighter mb-4 sm:mb-8 border-l-8 border-secondary dark:border-accent pl-6 py-2">
           LET&apos;S CONNECT
         </h2>
-        <p className="text-lg text-foreground mb-8 sm:mb-16 max-w-2xl font-bold border-b-4 border-foreground pb-4">
+        <p className="text-lg text-foreground mb-8 sm:mb-16 max-w-4xl font-bold border-b-4 border-foreground pb-2">
           I&apos;m always interested in hearing about new projects and
           opportunities. Feel free to reach out!
         </p>
@@ -136,10 +136,9 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className={`w-full px-6 py-3 bg-primary text-primary-foreground font-black border-3 border-primary hover:translate-x-1 hover:translate-y-1 transition-all duration-200 active:translate-x-0.5 active:translate-y-0.5 flex items-center justify-center gap-2 uppercase ${
+                className={`w-full px-6 py-3 bg-primary text-primary-foreground font-black border-3 border-primary hover:translate-x-1 hover:translate-y-1 transition-all duration-200 active:translate-x-0.5 active:translate-y-0.5 flex items-center justify-center gap-2 uppercase shadow-[8px_8px_0px_#000000] cursor-pointer hover:bg-accent dark:hover:bg-secondary ${
                   loading ? "opacity-70 cursor-not-allowed" : ""
                 }`}
-                style={{ boxShadow: "6px 6px 0px #000000" }}
               >
                 {loading ? (
                   <>
@@ -186,8 +185,7 @@ export default function Contact() {
               <div className="space-y-4">
                 <a
                   href="mailto:arisandisatria541@gmail.com"
-                  className="flex items-center gap-4 p-4 border-3 border-foreground hover:bg-accent hover:dark:bg-secondary hover:text-secondary-foreground transition-all group"
-                  style={{ boxShadow: "4px 4px 0px #000000" }}
+                  className="flex items-center gap-4 p-4 border-3 border-foreground hover:bg-accent hover:dark:bg-secondary hover:text-secondary-foreground transition-all group shadow-[4px_4px_0px_#000000]"
                 >
                   <Mail
                     size={28}
@@ -207,8 +205,7 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/arisandisatriajeujanan/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 border-3 border-foreground hover:bg-accent hover:dark:bg-secondary hover:text-secondary-foreground transition-all group"
-                  style={{ boxShadow: "4px 4px 0px #000000" }}
+                  className="flex items-center gap-4 p-4 border-3 border-foreground hover:bg-accent hover:dark:bg-secondary hover:text-secondary-foreground transition-all group shadow-[4px_4px_0px_#000000]"
                 >
                   <Share2
                     size={28}
@@ -228,8 +225,7 @@ export default function Contact() {
                   href="https://github.com/arisandisatria"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 border-3 border-foreground hover:bg-accent hover:dark:bg-secondary hover:text-secondary-foreground transition-all group"
-                  style={{ boxShadow: "4px 4px 0px #000000" }}
+                  className="flex items-center gap-4 p-4 border-3 border-foreground hover:bg-accent hover:dark:bg-secondary hover:text-secondary-foreground transition-all group shadow-[4px_4px_0px_#000000]"
                 >
                   <Code2
                     size={28}

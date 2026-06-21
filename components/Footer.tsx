@@ -5,20 +5,14 @@ export default function Footer() {
     <footer className="border-t-4 border-foreground py-12 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-8 mb-8">
-          <div
-            className="p-4 border-3 border-foreground"
-            style={{ boxShadow: "4px 4px 0px #000000" }}
-          >
+          <div className="p-4 border-3 border-foreground shadow-[8px_8px_0px_#000000]">
             <h3 className="font-black text-2xl mb-2 uppercase">ASJ</h3>
             <p className="text-sm text-foreground font-bold">
               Fullstack Developer crafting bold application experiences.
             </p>
           </div>
 
-          <div
-            className="p-4 border-3 border-foreground"
-            style={{ boxShadow: "4px 4px 0px #000000" }}
-          >
+          <div className="p-4 border-3 border-foreground shadow-[8px_8px_0px_#000000]">
             <h4 className="font-black text-sm mb-4 uppercase">Navigation</h4>
             <ul className="space-y-2 text-sm text-foreground font-bold">
               <li>
@@ -56,10 +50,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div
-            className="p-4 border-3 border-foreground"
-            style={{ boxShadow: "4px 4px 0px #000000" }}
-          >
+          <div className="p-4 border-3 border-foreground shadow-[8px_8px_0px_#000000]">
             <h4 className="font-black text-sm mb-4 uppercase">Social</h4>
             <ul className="space-y-2 text-sm text-foreground font-bold">
               <li>
@@ -93,10 +84,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div
-            className="p-4 border-3 border-foreground"
-            style={{ boxShadow: "4px 4px 0px #000000" }}
-          >
+          <div className="p-4 border-3 border-foreground shadow-[8px_8px_0px_#000000]">
             <h4 className="font-black text-sm mb-4 uppercase">Contact</h4>
             <p className="text-sm text-foreground font-bold">
               <a

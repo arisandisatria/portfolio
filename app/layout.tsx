@@ -3,14 +3,14 @@ import type { Metadata, Viewport } from "next";
 
 import "./globals.css";
 import {
-  DM_Sans as V0_Font_DM_Sans,
-  Space_Mono as V0_Font_Space_Mono,
-  Source_Serif_4 as V0_Font_Source_Serif_4,
+  DM_Sans as Font_DM_Sans,
+  Space_Mono as Font_Space_Mono,
+  Source_Serif_4 as Font_Source_Serif_4,
 } from "next/font/google";
 import ThemeProvider from "@/components/ThemeProvider";
 
 // Initialize fonts
-const _dmSans = V0_Font_DM_Sans({
+const _dmSans = Font_DM_Sans({
   subsets: ["latin"],
   weight: [
     "100",
@@ -25,11 +25,11 @@ const _dmSans = V0_Font_DM_Sans({
     "1000",
   ],
 });
-const _spaceMono = V0_Font_Space_Mono({
+const _spaceMono = Font_Space_Mono({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
-const _sourceSerif_4 = V0_Font_Source_Serif_4({
+const _sourceSerif_4 = Font_Source_Serif_4({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
 });

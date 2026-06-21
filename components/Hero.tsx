@@ -17,8 +17,8 @@ export default function Hero() {
             </h1>
           </div>
 
-          <div className="border-4 border-foreground px-6 py-2 sm:px-8 sm:py-6 inline-block text-white bg-secondary dark:bg-accent transition-all duration-200">
-            <p className="text-lg sm:text-xl font-bold tracking-widest ">
+          <div className="border-4 border-foreground px-6 py-2 sm:px-8 sm:py-6 inline-block text-white bg-secondary dark:bg-accent transition-all duration-200 shadow-[8px_8px_0px_#000000]">
+            <p className="text-lg sm:text-xl font-bold tracking-widest">
               FULLSTACK DEVELOPER
             </p>
           </div>
@@ -34,8 +34,7 @@ export default function Hero() {
             href="/CV_Arisandi.pdf"
             download="CV_Arisandi_Fullstack-Developer.pdf"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-6 py-2 sm:px-10 sm:py-4 bg-primary text-primary-foreground font-black text-lg border-4 border-primary hover:shadow-2xl transition-all duration-200 active:translate-x-1 active:translate-y-1 hover:translate-x-1 hover:translate-y-1"
-            style={{ boxShadow: "8px 8px 0px #000000" }}
+            className="inline-flex items-center gap-3 px-6 py-2 sm:px-10 sm:py-4 bg-primary text-primary-foreground font-black text-lg border-4 border-primary transition-all duration-200 active:translate-x-1 active:translate-y-1 hover:translate-x-1 hover:translate-y-1 shadow-[8px_8px_0px_#000000]"
           >
             <Download size={24} />
             RESUME
@@ -43,8 +42,7 @@ export default function Hero() {
 
           <a
             href="#contact"
-            className="inline-flex items-center gap-3 px-6 py-2 sm:px-10 sm:py-4 border-4 border-foreground text-foreground font-black text-lg hover:bg-foreground hover:text-background transition-all duration-200 active:translate-x-1 active:translate-y-1 hover:translate-x-1 hover:translate-y-1"
-            style={{ boxShadow: "8px 8px 0px #000000" }}
+            className="inline-flex items-center gap-3 px-6 py-2 sm:px-10 sm:py-4 border-4 border-foreground text-foreground font-black text-lg hover:bg-foreground hover:text-background transition-all duration-200 active:translate-x-1 active:translate-y-1 hover:translate-x-1 hover:translate-y-1 shadow-[8px_8px_0px_#000000]"
           >
             CONTACT
             <ArrowRight size={24} />

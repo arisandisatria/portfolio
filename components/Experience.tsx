@@ -63,10 +63,7 @@ export default function Experience() {
 
               <div className="absolute -left-3 top-1 w-7 h-7 dark:bg-accent bg-secondary border-3 border-foreground" />
 
-              <div
-                className="space-y-3 border-3 border-foreground p-4"
-                style={{ boxShadow: "4px 4px 0px #000000" }}
-              >
+              <div className="space-y-3 border-3 border-foreground p-4 shadow-[8px_8px_0px_#000000]">
                 <div className="flex flex-col">
                   <h3 className="text-xl font-black uppercase">{exp.title}</h3>
                   <div className="w-full flex justify-between items-center">

@@ -53,10 +53,7 @@ export default function About() {
               {skills.map((skill) => (
                 <div
                   key={skill.name}
-                  className="px-4 py-3 border-3 border-foreground text-white transition-all font-bold bg-secondary dark:bg-accent"
-                  style={{
-                    boxShadow: "4px 4px 0px #334155",
-                  }}
+                  className="px-4 py-3 border-3 border-foreground text-white transition-all font-bold bg-secondary dark:bg-accent shadow-[4px_4px_0px_#000000]"
                 >
                   <p className="font-black text-sm uppercase">{skill.name}</p>
                   <p className="text-xs font-semibold mt-1">{skill.category}</p>

@@ -8,7 +8,6 @@ interface ThemeContextType {
   mounted: boolean;
 }
 
-// 1. Buat wadah Context
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export default function ThemeProvider({
@@ -47,7 +46,6 @@ export default function ThemeProvider({
     applyTheme(newState);
   };
 
-  // 2. Bungkus anak komponen dengan Provider dan berikan nilainya
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme, mounted }}>
       {children}
@@ -55,7 +53,6 @@ export default function ThemeProvider({
   );
 }
 
-// 3. Buat custom hook pembantu di sini sekalian agar lebih praktis
 export function useTheme() {
   const context = useContext(ThemeContext);
   if (context === undefined) {

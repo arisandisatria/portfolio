@@ -7,7 +7,7 @@ export default function Projects() {
       description:
         "AI-powered career assistant platform that helps job seekers.",
       technologies: [
-        "NextJS",
+        "Next JS",
         "Clerk",
         "AI Integration",
         "Tailwind CSS",
@@ -22,7 +22,7 @@ export default function Projects() {
       description:
         "Platform to help creators make their content with AI tools.",
       technologies: [
-        "NextJS",
+        "Next JS",
         "Clerk",
         "AI Integration",
         "Tailwind CSS",
@@ -37,7 +37,7 @@ export default function Projects() {
       description:
         "AI-powered platform to search hadits according to user mood.",
       technologies: [
-        "NextJS",
+        "Next JS",
         "AI Integration",
         "Tailwind CSS",
         "Responsive Design",
@@ -45,6 +45,16 @@ export default function Projects() {
       liveUrl: "https://hadits-seeker.vercel.app/",
       codeUrl: "https://github.com/arisandisatria/hadits-seeker.git",
       image: "/hadits-seeker.png",
+    },
+    {
+      title: "AI Coach",
+      description:
+        "A sophisticated AI-powered android-based mobile application designed to instantly curate a curriculum of materials based on any topic desired by the user.",
+      technologies: ["React Native", "Expo", "AI Integration", "Firebase"],
+      liveUrl:
+        "https://drive.google.com/drive/folders/1OoNPjwOegMQQnmDnC4NsNev2KczUk4sy?usp=drive_link",
+      codeUrl: "https://github.com/arisandisatria/ai-coach.git",
+      image: "/ai-coach.jpg",
     },
   ];
 
@@ -55,21 +65,20 @@ export default function Projects() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl sm:text-6xl font-black tracking-tighter mb-8 sm:mb-12 border-l-8 border-secondary dark:border-accent pl-6 py-2">
-          FEATURED PROJECTS
+          PROJECTS
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div
               key={project.title}
-              className="border-4 border-foreground bg-card transition-all duration-300 overflow-hidden group hover:translate-x-2 hover:translate-y-2"
-              style={{ boxShadow: "8px 8px 0px #000000" }}
+              className="border-4 border-foreground bg-card transition-all duration-300 overflow-hidden group hover:translate-x-2 hover:translate-y-2 shadow-[8px_8px_0px_#000000]"
             >
-              <div className="h-fit bg-secondary dark:bg-accent flex items-center justify-center text-8xl border-b-4 border-foreground group-hover:bg-accent group-hover:dark:bg-secondary transition-colors">
+              <div className="bg-slate-100 flex items-center justify-center text-8xl border-b-4 border-foreground transition-colors w-full h-60 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-cover"
+                  className="w-full h-65 object-contain"
                 />
               </div>
 
