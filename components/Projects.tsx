@@ -47,6 +47,15 @@ export default function Projects() {
       image: "/hadits-seeker.png",
     },
     {
+      title: "Obatku",
+      description:
+        "Obatku is a comprehensive medication management system designed to improve patient adherence through automated WhatsApp reminders, real-time progress tracking, and official SatuSehat KFA integration for seamless monitoring by healthcare professionals.",
+      technologies: ["Laravel", "Bootstrap"],
+      liveUrl: "#",
+      codeUrl: "https://github.com/arisandisatria/laravel-project.git",
+      image: "/obatku.png",
+    },
+    {
       title: "AI Coach",
       description:
         "A sophisticated AI-powered android-based mobile application designed to instantly curate a curriculum of materials based on any topic desired by the user.",
