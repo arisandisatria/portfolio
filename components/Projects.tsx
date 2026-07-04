@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: "Workzenn",
       description:
-        "AI-powered career assistant platform that helps job seekers.",
+        "AI-powered career preparation platform that empowers users to build professional resumes and practice their skills through an interactive mock interview simulator.",
       technologies: [
         "Next JS",
         "Clerk",
@@ -20,7 +20,7 @@ export default function Projects() {
     {
       title: "CreatorPal",
       description:
-        "Platform to help creators make their content with AI tools.",
+        "AI-powered assistant platform specifically designed to help content creators, digital marketers, and business owners accelerate their content production process.",
       technologies: [
         "Next JS",
         "Clerk",
@@ -35,7 +35,7 @@ export default function Projects() {
     {
       title: "Hadits Seeker",
       description:
-        "AI-powered platform to search hadits according to user mood.",
+        "An AI-based hadith search and exploration app designed to help Muslims find spiritual guidance in a more personalized way.",
       technologies: [
         "Next JS",
         "AI Integration",
@@ -49,7 +49,7 @@ export default function Projects() {
     {
       title: "Obatku",
       description:
-        "Obatku is a comprehensive medication management system designed to improve patient adherence through automated WhatsApp reminders, real-time progress tracking, and official SatuSehat KFA integration for seamless monitoring by healthcare professionals.",
+        "Comprehensive medication management system designed to improve patient adherence through automated WhatsApp reminders, real-time progress tracking, and official SatuSehat KFA integration for seamless monitoring by healthcare professionals.",
       technologies: ["Laravel", "Bootstrap"],
       liveUrl: "#",
       codeUrl: "https://github.com/arisandisatria/laravel-project.git",
