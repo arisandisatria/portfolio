@@ -70,6 +70,6 @@ export const PROJECTS = [
     liveUrl:
       "https://drive.google.com/file/d/16F1K-6gYSfk-XqNw5y6uno0Cqsnv2RCH/view?usp=drive_link",
     codeUrl: "https://github.com/arisandisatria/kokikos.git",
-    image: "/kokikos.jpg",
+    image: "/kokikos.png",
   },
 ];
